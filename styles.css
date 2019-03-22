@@ -1,0 +1,39 @@
+body {
+  max-width: 900px;
+  margin: auto;
+  background-color: tomato; }
+
+main {
+  font-size: 25px; }
+
+img {
+  width: 100%; }
+
+p {
+  color: darkgray; }
+  p.large {
+    font-size: 1.5rem; }
+
+nav {
+  border: 1px solid blue; }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.5rem; }
+
+/* mobile */
+@media screen and (max-width: 500px) {
+  body {
+    background-color: lightgoldenrodyellow; }
+
+  nav ul {
+    flex-direction: column; } }
+/* tablet */
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  body {
+    background-color: red; } }
+
+/*# sourceMappingURL=styles.css.map */
